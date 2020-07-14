@@ -1,6 +1,6 @@
 
-				<div id="main-content article">
-					<div id="guts" class="contactus">
+				<!-- <div id="main-content article" class="wrapper"> -->
+					<div id="guts" class="contactus wrapper">
 						<div class="contactushead1">
 							<h1>Support for using TITAN</h1>
 							<div class="Contactline"></div>
@@ -23,4 +23,4 @@
 							</div>
 						</div>
 				    </div>
-				</div>
+				<!-- </div> -->

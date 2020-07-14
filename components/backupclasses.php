@@ -1,5 +1,5 @@
 
-				<div id=" article">
+				<div id=" article" class="wrapper">
 					<div id="guts" class="contactus">
 									
 						
@@ -95,3 +95,4 @@
 										</div>
 									</div>
 					</div>
+				

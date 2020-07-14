@@ -1,5 +1,5 @@
 
-				<div id="main-content article">
+				<div id="main-content article" class="wrapper">
 					<div id="guts" class="contactus">
 									
 						

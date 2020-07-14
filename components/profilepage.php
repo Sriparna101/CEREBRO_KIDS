@@ -1,6 +1,6 @@
 
-<div id="guts" class="profilesection">
-	<section id="Profilesection">
+<div id="guts" class="wrapper">
+	<section class="profileSection">
 		<div>
 			<?php
 									/*require 'connection.php';
@@ -38,7 +38,7 @@
 	</section>
 
 
-	<section id="Profilesection2">
+	<section class="profileSection">
 		<p>Session Progress</p>
 		<div class="line"></div>
 
@@ -48,7 +48,7 @@
 	</section>
 
 
-	<section id="Profilesection3">
+	<section class="profileSection">
 		<p>Performances</p>
 		<div class="line"></div>
 
@@ -66,9 +66,8 @@
 				<p>7/10</p>
 			</div>
 
-			<div class="certificatebutton">
-				<button>Certificate</button>
-			</div>
+				<button class="certificatebutton">Certificate</button>
+			
 		</div>
 
 	</section>
