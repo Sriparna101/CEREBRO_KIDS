@@ -19,6 +19,7 @@
 <body>
     <div class="header">
         <img id="ckLogo" src="./ck_logo.png" alt="cerebro kids">
+        <div class="verticalBar"></div>
         <div id="contactInfo">
             <span>hello@cerebrokids.com</span>
             <span>+91 99717 12678</span>
@@ -46,12 +47,23 @@
         <a id="contact" class=" sideNavbar-btn">Contact us</a>
 
     </div>
-
+    <div class="topNavbar">
+            <a href="#videos" id="topBtn-videos"class="topNavbar-btn">VIDEOS</a>
+            <div class="whiteBar"></div>
+            <a id="topBtn-worksheets" href="#workesheets" class="topNavbar-btn">WORKSHEETS</a>
+            <div class="whiteBar"></div>
+            <a  id="topBtn-articles" href="#articles"  class="topNavbar-btn">ARTICLES</a>
+        </div>
 
     <div id="mainContent">
+        
 
     </div>
-    <footer></footer>
+    <footer>
+        
+            FOOTER
+        
+    </footer>
 
 
 
