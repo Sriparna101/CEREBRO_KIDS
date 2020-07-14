@@ -12,6 +12,7 @@
       margin-left: 2vw;
       background-color: rgb(14, 40, 83);
     color: white;
+    overflow-y: auto;
   }
 
   .assignCol{
