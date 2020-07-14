@@ -32,7 +32,28 @@ $(document).ready(function () {
     });
 });
 
+// TOP NAV BAR ACTION
+$(document).ready(function () {
+    $("#topBtn-videos").click(function () {
+        $(".topNavbar-btn").removeClass("activeTopbarBtn");
+        $(this).addClass("activeTopbarBtn");
+        $('#mainContent').empty();
+        $("#mainContent").load('components/financeforkids.php');
 
+    });
+    $("#topBtn-worksheets").click(function () {
+        $(".topNavbar-btn").removeClass("activeTopbarBtn");
+        $(this).addClass("activeTopbarBtn");
+        $('#mainContent').empty();
+        $("#mainContent").load('components/worksheets.php');
+
+    });
+    $("#topBtn-articles").click(function () {
+        $(".topNavbar-btn").removeClass("activeTopbarBtn");
+        $(this).addClass("activeTopbarBtn");
+        $('#mainContent').empty();
+    });
+})
 // SIDE-NAVBAR COLLAPSIBLE BUTTON FOR MOBILE VIEW
 
 
@@ -55,31 +76,3 @@ $(document).ready(function () {
         });
     });
 });
-
-// (document).ready(function () {
-//     if (window.matchMedia('(max-width: 700px)').matches) {
-//         // $(document).ready(function () {
-//         $('.openBtn').click(function () {
-//             $(this).css({ "display": "none" });
-//             $('.closeBtn').css({ "display": "inline-block" });
-//             $('.sideNavbar').css({
-//                 "height": "auto",
-//             });
-//         });
-//         // });
-//         // $(document).ready(function () {
-//         $('.closeBtn').click(function () {
-//             $(this).css({ "display": "none" });
-//             $('.openBtn').css({ "display": "inline-block" });
-//             $('.sideNavbar').css({
-//                 "height": "0",
-//             });
-//         });
-//         // });
-//     } else {
-//         $('.openBtn').css({ "display": "none" });
-//         $('.closeBtn').css({ "display": "none" });
-//     }
-// })
-
-
