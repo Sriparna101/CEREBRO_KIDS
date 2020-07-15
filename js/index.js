@@ -3,30 +3,32 @@
 
 $(document).ready(function () {
     $("#assign").click(function () {
+        $(".sideNavbar-btn").removeClass('active');
+        $(this).addClass('active');
         $('#mainContent').empty();
         $("#mainContent").load('components/assignments.php');
     });
-})
-$(document).ready(function () {
     $("#profile").click(function () {
+        $(".sideNavbar-btn").removeClass('active');
+        $(this).addClass('active');
         $('#mainContent').empty();
         $("#mainContent").load('components/profilepage.php');
     });
-});
-$(document).ready(function () {
     $("#ffk").click(function () {
+        $(".sideNavbar-btn").removeClass('active');
+        $(this).addClass('active');
         $('#mainContent').empty();
         $("#mainContent").load('components/financeforkids.php');
     });
-});
-$(document).ready(function () {
     $("#backup").click(function () {
+        $(".sideNavbar-btn").removeClass('active');
+        $(this).addClass('active');
         $('#mainContent').empty();
         $("#mainContent").load('components/backupclasses.php');
     });
-});
-$(document).ready(function () {
     $("#contact").click(function () {
+        $(".sideNavbar-btn").removeClass('active');
+        $(this).addClass('active');
         $('#mainContent').empty();
         $("#mainContent").load('components/contactus.php');
     });
@@ -34,6 +36,9 @@ $(document).ready(function () {
 
 // TOP NAV BAR ACTION
 $(document).ready(function () {
+    $("#mainContent").load('components/backupclasses.php');
+    $("#topBtn-videos").addClass("activeTopbarBtn");
+
     $("#topBtn-videos").click(function () {
         $(".topNavbar-btn").removeClass("activeTopbarBtn");
         $(this).addClass("activeTopbarBtn");
@@ -52,8 +57,9 @@ $(document).ready(function () {
         $(".topNavbar-btn").removeClass("activeTopbarBtn");
         $(this).addClass("activeTopbarBtn");
         $('#mainContent').empty();
+        $("#mainContent").load('components/articles.php');
     });
-})
+});
 // SIDE-NAVBAR COLLAPSIBLE BUTTON FOR MOBILE VIEW
 
 
