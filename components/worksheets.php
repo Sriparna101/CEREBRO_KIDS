@@ -13,17 +13,17 @@
         <div class="money assignCol">
             <h3>Money</h3>
             <ul>
-                <li>Fun Currency​​</li>
-                <li>Let’s Barter​</li>
-                <li>Joy of Giving</li>
+                <li>Fun Currency    <i class="fa fa-download downloadButton"></i>​​</li>
+                <li>Let’s Barter​    <i class="fa fa-download downloadButton"></i></li>
+                <li>Joy of Giving    <i class="fa fa-download downloadButton"></i></li>
             </ul>
         </div>
 
         <div class="budgeting assignCol">
             <h3>Budgeting</h3>
             <ul>
-                <li>Budget Planner​</li>
-                <li>Ask your Parents​​</li>
+                <li>Budget Planner    <i class="fa fa-download downloadButton"></i>​</li>
+                <li>Ask your Parents​​    <i class="fa fa-download downloadButton"></i></li>
             </ul>
         </div>
 

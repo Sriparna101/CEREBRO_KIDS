@@ -13,17 +13,17 @@
     <div class="digiAge assignCol">
         <h3>Finance in Digital Age</h3>
         <ul>
-            <li>S1.a. xxxxxx​</li>
-            <li>S1.b. xxxxxx​</li>
-            <li>S2.a. xxxxxx</li>
+            <li>S1.a. xxxxxx​    <i class="fa fa-download downloadButton"></i></li>
+            <li>S1.b. xxxxxx    <i class="fa fa-download downloadButton"></i>​</li>
+            <li>S2.a. xxxxxx    <i class="fa fa-download downloadButton"></i></li>
         </ul>
     </div>
 
     <div class="moneyMgmt assignCol">
         <h3>Money Management</h3>
         <ul>
-            <li>S6.a. xxxxxx​</li>
-            <li>S7.a. xxxxxx​</li>
+            <li>S6.a. xxxxxx​    <i class="fa fa-download downloadButton"></i></li>
+            <li>S7.a. xxxxxx    <i class="fa fa-download downloadButton"></i>​</li>
         </ul>
     </div>
 
