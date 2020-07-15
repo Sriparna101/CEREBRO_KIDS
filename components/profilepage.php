@@ -42,9 +42,31 @@
 		<p>Session Progress</p>
 		<div class="line"></div>
 
-		<div id="Progress_Status">
-			<div id="myprogressBar"></div>
-		</div>
+		<!-- <div id="Progress_Status"> -->
+			<table class="progressTable">
+				<tr>
+					<td>week 1</td>
+					<td>week 3</td>
+					<td>week 5</td>
+					<td>week 7</td>
+					<td>week 11</td>
+					<td>week 13</td>
+					<td>week 15</td>
+					<td>week 17</td>
+				</tr>
+				<tr>
+					<td>week 2</td>
+					<td>week 4<div class="arrow-up"></div></td>
+					<td>week 6</td>
+					<td>week 8</td>
+					<td>week 10</td>
+					<td>week 12</td>
+					<td>week 14</td>
+					<td>week 16</td>
+				</tr>
+			</table>
+			<!-- <div id="myprogressBar"></div> -->
+		<!-- </div> -->
 	</section>
 
 
