@@ -38,7 +38,7 @@ $(document).ready(function () {
         $(".topNavbar-btn").removeClass("activeTopbarBtn");
         $(this).addClass("activeTopbarBtn");
         $('#mainContent').empty();
-        $("#mainContent").load('components/financeforkids.php');
+        $("#mainContent").load('components/backupclasses.php');
 
     });
     $("#topBtn-worksheets").click(function () {
