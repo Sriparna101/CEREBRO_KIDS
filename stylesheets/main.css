@@ -1,0 +1,421 @@
+html{
+  height: 100%;
+}
+body {
+    min-height: 100%;
+    font-family: sans-serif;
+  }
+  #mainContent{
+      background-color: rgb(14, 40, 83);
+      margin-left: 250px;
+      /* margin-right: 10px; */
+        height:800px;
+    /* padding: 1px 16px; */
+  }
+
+
+  /* HEADER */
+  .header{
+    overflow: hidden;
+    background-color: white;
+    padding: 4px 10px;
+    margin: 2px;
+    height: 55px;
+  }
+  
+  .headerSection1{
+      box-sizing: border-box;
+      width: 30%;
+      float: left;
+
+  }
+  
+
+  #ckLogo{
+    height: 6vh;
+    vertical-align: middle;
+    padding: 6px 12px;
+    margin-top: -1%;
+  }
+
+  .verticalBar{
+    height: 5vh;
+    background-color: lightskyblue;
+    /* float: left; */
+    display: inline-block;
+    width: 1vh;
+    vertical-align: middle;
+  }
+  #contactInfo{
+    display: inline-block;
+    width: fit-content;
+    font-size: 2vh;
+    vertical-align: middle;
+    padding-left: 1vh;
+  }
+  
+
+  .headerSection2{
+    box-sizing: border-box;
+    width: 45%;
+    float: left;
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 5vw;
+    font-weight: bolder;
+    height: inherit;
+    color: dimgray;
+    margin-top:  -10px;
+  }
+  .headerSection3{
+    box-sizing: border-box;
+    width: 15%;
+    float: right;
+    height: inherit;
+    
+  }
+  
+  .headerSection3 span{
+    width: 50%;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    float: left;
+    padding: 1% 1%;
+    margin: -2% 2%;
+    margin-left: 6%;
+    height: inherit;
+    vertical-align: middle;
+  }
+  .headerSection3 img{
+    height: auto;
+    width: 25%;
+    padding: 1% 7%;
+    vertical-align: middle;
+    float: right;
+    margin: -3% 0%;
+  }
+  @media screen and (max-width: 1000px) {
+
+
+    .header{
+      height: 100px;
+    }
+
+    #cklogo{
+      height: 5vh;
+      vertical-align: top;
+      padding: 4px 12px;
+    /* margin-top: -1%; */
+    }
+    .headerSection1{
+      width: 100%;
+      height: 50px;
+    }
+    .headerSection2{
+      width: 100%;
+      height: 50px;
+      font-size: 5vh;
+      letter-spacing: 11vw;
+      margin-top: 1px;
+    }
+    .verticalBar{
+      height: 4vh;
+    }
+    .headerSection3{
+      width: 100%;
+      height: 50px;
+      display: none;
+      
+    }
+    .headerSection3 span{
+
+      font-size: 1.5em;
+    margin: 2px 8%;
+    padding: 8px 5%;
+    width: 60%;
+    }
+    .headerSection3 img{
+      height: 50px;
+    width: 50px;
+    float: none;
+    padding: 0 1%;
+    margin-top: 1px;
+      
+    }
+
+  }
+  
+  
+  /* @media screen and (max-width: 700px) {
+    #contactInfo {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #userInfo{
+      float: none;
+    }
+  }
+   */
+
+  /* SIDE NAVBAR */
+  .openBtn{
+    display: none;
+  }
+  .closeBtn{
+    display: none;
+  }
+  .sideNavbar{
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    background-color: transparent;
+    background-image: url(../sideNavbarBackground2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    /* height: 1154px; */
+    overflow: auto;
+    
+  }
+  .sideNavbarUsername{
+    text-align: center;
+    
+    width: 60%;
+    margin: 40px 18%;
+    margin-bottom: 0;
+    color: rgb(14, 40, 83) ;
+    font-size: 1.5em;
+    font-weight: bolder;
+
+  }
+  .sideNavbar .searchBar{
+      margin: 1em 0;
+      
+  }
+  .sideNavbar .searchBar p{
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    margin: 10px 20%;
+    background-color: orangered;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+  .sideNavbar .searchBar input{
+    height: 50px;
+    width: 90%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 2px rgb(14, 40, 83) solid;
+    font-size: 1.5em;
+    padding-left: 10%;
+    margin-left: 3%;
+  }
+
+
+  .sideNavbar-btn {
+    display: block;
+    color: black;
+    height: 30px;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    cursor: pointer;
+  }
+   
+  .active {
+    background-color: rgb(14, 40, 83);
+    color: white;
+  }
+  
+  .sideNavbar a:hover:not(.active) {
+    background-color:orangered;
+    color: white;
+  }
+
+
+  
+  @media screen and (max-width: 700px) {
+    
+    /* .sidNavbar div{
+        float: left; 
+    } */
+    .openBtn{
+      display: inline-block;
+      width: 100%;
+      max-width: 90%;
+      position: relative;
+      height: 40px;
+      cursor: pointer;
+      background-color:  rgb(14, 40, 83);
+      color: white;
+      margin: 0 4vw;
+      font-size: 1em;
+      font-weight: bold;
+      /* border: none; */
+    }
+    .openBtn:hover {
+      background-color:orangered;
+    }
+    .closeBtn{
+      display: none;
+      width: 100%;
+      max-width: 90%;
+      position: relative;
+      height: 40px;
+      cursor: pointer;
+      background-color:  rgb(14, 40, 83);
+      color: white;
+      margin: 0 4vw;
+      font-size: 1em;
+      font-weight: bold;
+    }
+    .closeBtn:hover {
+      background-color:orangered;
+    }
+    
+      
+
+    .sideNavbar {
+      width: 100%;
+      height: 0;
+      position: relative;
+      -webkit-transition: height 1s;
+      transition: height 1s;
+    }
+
+    .sideNavbar-btn {
+        height: 30px;
+    }
+    /* .sideNavbar a {float: left;} */
+    #mainContent {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+  }
+  
+    
+  /* TOP NAVBAR */
+  .topNavbar {
+    background-color:  rgb(14, 40, 83);
+    overflow: hidden;
+    margin-left: 250px;
+    /* margin-right:10px; */
+  }
+  .topNavbar a {
+    float: left;
+    display: block;
+    width: 32%;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1% 3%;
+    text-decoration: none;
+    font-size: 1.5em;
+    height: 50px;
+    font-weight: bolder;
+    
+  }
+  .topNavbar a:hover {
+    background-color:orangered;
+    color: blacks;
+  }
+  .whiteBar{
+    width: 1%;
+    box-sizing: border-box;
+    background-color: white;
+    float: left;
+    height: 50px;
+  }
+  .activeTopbarBtn {
+    background-color: orangered;
+    color: white;
+  }
+  @media screen and (max-width: 700px) {
+    .topNavbar{margin:10px;}
+    .whiteBar{
+      width: 100%;
+      height: 2px;
+      position: relative;
+      background-color: white;
+    }
+    .topNavbar a {
+        width: 100%;
+        height: 30px;
+        font-size: 2vh;
+        position: relative;
+    }
+  }
+
+  footer{
+    width: -webkit-fill-available;
+    height: 40px;
+    background-color:#f1f1f1;
+    margin: 10px;
+    margin-left: 0;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 4vh;
+
+  }
+  /* ------------- */
+ /* PROFILE PAGE*/
+/* ---------- */
+ .progressTable{
+    height: 50%;
+    width: 100%;
+    margin: 4% auto;
+  }
+  
+  .progressTable td{
+    /* rborder: white 1px solid; */
+    background-color: rgb(63, 81, 110);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 1%;
+    border: 0.5vw solid rgb(14, 40, 83);
+    position: relative;
+  }
+
+  .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 2vh solid transparent;
+    border-right: 2vh solid transparent;
+    z-index: 10;
+    position: absolute;
+    border-bottom: 2vh solid orangered;
+  }
+  .profileUserInfo p{
+      display: inline-block;
+
+  }
+  .profileUserInfo button{
+    float: right;
+    color: white;
+    font-size: large;
+    background-color: rgb(63, 81, 110);
+    text-decoration: none;
+    border: none;
+    margin-right: 40px;
+    margin-top: 15px;
+  }
+  .item1 .profileUsername{
+    font-size: 1.5em;
+    border-bottom: solid orangered 3px;
+  }
+
+
+  /*-----------  */
+  /* VIDEOS */
+  /* -------- */
+  .videoSectionTitle{
+    font-size: 1.5em;
+    padding: 10px;
+  }
+

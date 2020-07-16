@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(14, 40, 83);
+    color: white;
+  }
+
+  .wrapper{
+    width: inherit;
+    height: inherit;
+    margin-left: 2vw;
+    background-color: rgb(14, 40, 83);
+  color: white;
+}
+
+.assignCol{
+  width: 20%;
+  float: left;
+  margin: 4px 1%;
+  height: 400px;
+  /* border: 1px solid red; */
+  padding: 10px;
+  text-align: center;
+}
+.assignCol h3{
+  border-bottom: orangered 2px solid;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.assignCol ul{
+    list-style: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .assignCol{
+      width: 44%;
+      float: left;
+      margin: 4px 0;
+      height: 285px;
+      /* border: 1px solid red; */
+      padding: 10px;
+      text-align: center;
+    }
+}
+@media screen and (max-width: 400px) {
+  .wrapper{
+      margin: 0;
+  }
+  .assignCol{
+      width: 100%;
+      float: none;
+      margin: 4px 0;
+      height: 285px;
+      /* border: 1px solid red; */
+      padding: 10px;
+      text-align: center;
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+	<div class="firstview">
+		<div class="lefthalf">
+			<div class="leftup">
+				<img src="images/imagelogin1.png">	
+			</div>
+			<div class="leftbottom">
+				<img src="images/image3.png" class="leftimg">
+				<img src="images/image4.png" class="leftimg">
+				<img src="images/image5.png" class="leftimg">
+				<img src="images/image6.png" class="leftimg">
+			</div>	
+			<div class="leftbutton">
+				<input type="button" onclick="window.location.href='#section2'" name="ABOUT" value="Know More" >
+			</div>
+		</div>
+		<div class="righthalf">
+			<div class="topcorner">
+				<div class="topbutton">
+					<input type="button" onclick="window.location.href='#section2'" name="ABOUT" value="ABOUT" >
+				</div>
+				<div class="topbutton">
+					<input type="button" name="VIDEOS" value="VIDEOS">
+				</div>
+				<div class="topbutton">
+					<input type="button" onclick="window.location.href='#section3'" name="CONTACT US" value="CONTACT US">
+				</div>
+			</div>
+
+			
+				<div class="logologin">
+					<img src="images/image2.png">
+				</div>
+
+				<div class="logreg">
+					<button class="logreg1" onclick="window.location.href='logincustomer.html'"> Login </button>
+					<button class="logreg2" onclick="window.location.href='registercustomer.php'"> Register </button>
+				</div>
+			
+		</div>
+	</div>
+
+	<section id="section2">
+		<div class="imagesection2login">
+			<img src="images/image7.png">
+		</div>
+	</section>
+
+	<section id="section3">
+		<h1>Contact Us</h1><br><br>
+		<p>Please fill in below details to connect with a member from our learning team.</p>
+		<form action="insert.php" method="post" class="loginpageform">
+  			<br> <input placeholder="Student Name" type="text" name="studentname" required><br><br>
+			<br><input placeholder="Email" type="email" name="email" required><br><br>
+			<br><input placeholder="Phone Number" type="tel" name="number" pattern="[0-9]{10}" required><br><br>
+			<br><input placeholder="Student's Grade" type="text" name="grade" required><br><br>
+			<br><input placeholder="Type your query in less than 100 words" type="text" name="query" required><br><br>
+			<button type="submit" value="Register">Submit</button>
+  		</form>
+	</section>
+
+	<footer class="loginfooter">
+		<img src="images/facebookicon.webp" class="loginfootericon" href="">
+		<img src="images/instagramicon.webp" class="loginfootericon" href="">
+		<img src="images/youtubeicon.webp" class="loginfootericon" href="">
+		<img src="images/linkedinicon.webp" class="loginfootericon" href="">
+	</footer>
+</body>
+</html>
