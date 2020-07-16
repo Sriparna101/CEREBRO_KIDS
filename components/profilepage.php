@@ -26,9 +26,8 @@
 			<div class='item'>
 
 				<img src="./icon.jpeg" alt="image">
-				
+
 				<div class='item1'>
-				<div class="profileUsername">Hello User</div>
 					<div class="profileUserInfo">
 						<p>Email ID : Email</p>
 						<button>Change Password</button>

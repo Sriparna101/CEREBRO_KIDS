@@ -3,12 +3,11 @@ html{
 }
 body {
     min-height: 100%;
-    font-family: sans-serif;
   }
   #mainContent{
       background-color: rgb(14, 40, 83);
-      margin-left: 250px;
-      /* margin-right: 10px; */
+      margin-left: 310px;
+      margin-right: 10px;
         height:800px;
     /* padding: 1px 16px; */
   }
@@ -18,9 +17,9 @@ body {
   .header{
     overflow: hidden;
     background-color: white;
-    padding: 4px 10px;
+    padding: 5px 10px;
     margin: 2px;
-    height: 55px;
+    height: 90px;
   }
   
   .headerSection1{
@@ -35,7 +34,6 @@ body {
     height: 6vh;
     vertical-align: middle;
     padding: 6px 12px;
-    margin-top: -1%;
   }
 
   .verticalBar{
@@ -60,12 +58,11 @@ body {
     width: 45%;
     float: left;
     text-align: center;
-    font-size: 4em;
+    font-size: 4vw;
     letter-spacing: 5vw;
     font-weight: bolder;
     height: inherit;
-    color: dimgray;
-    margin-top:  -10px;
+    margin-top:  -5px;
   }
   .headerSection3{
     box-sizing: border-box;
@@ -77,69 +74,55 @@ body {
   
   .headerSection3 span{
     width: 50%;
-    font-size: 1.5em;
+    font-size: 2em;
     box-sizing: border-box;
     float: left;
-    padding: 1% 1%;
-    margin: -2% 2%;
-    margin-left: 6%;
+    padding: 3% 1%;
+    margin: 0% 2%;
+    margin-left: 8%;
     height: inherit;
     vertical-align: middle;
   }
   .headerSection3 img{
     height: auto;
-    width: 25%;
-    padding: 1% 7%;
+    width: 24%;
+    padding: 1% 6%;
     vertical-align: middle;
     float: right;
-    margin: -3% 0%;
   }
   @media screen and (max-width: 1000px) {
-
-
     .header{
-      height: 100px;
-    }
-
-    #cklogo{
-      height: 5vh;
-      vertical-align: top;
-      padding: 4px 12px;
-    /* margin-top: -1%; */
+      height: 250px;
     }
     .headerSection1{
       width: 100%;
-      height: 50px;
+      height: 90px;
     }
     .headerSection2{
       width: 100%;
-      height: 50px;
-      font-size: 5vh;
+      height: 80px;
+      font-size: 6vh;
       letter-spacing: 11vw;
-      margin-top: 1px;
+      
     }
     .verticalBar{
-      height: 4vh;
+      height: 8vh;
     }
     .headerSection3{
       width: 100%;
-      height: 50px;
-      display: none;
+      height: 80px;
       
     }
     .headerSection3 span{
-
-      font-size: 1.5em;
-    margin: 2px 8%;
-    padding: 8px 5%;
-    width: 60%;
+      font-size: 3vh;
+      margin: 14px 3%;
+      padding: 0 5%;
+      
     }
     .headerSection3 img{
-      height: 50px;
-    width: 50px;
-    float: none;
-    padding: 0 1%;
-    margin-top: 1px;
+      height: 80px;
+      width: 80px;
+      float: none;
       
     }
 
@@ -168,36 +151,25 @@ body {
   .sideNavbar{
     margin: 0;
     padding: 0;
-    width: 240px;
+    width: 300px;
     background-color: transparent;
     background-image: url(../sideNavbarBackground2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: inherit;
     position: absolute;
+    height: 99%;
     /* height: 1154px; */
     overflow: auto;
     
   }
-  .sideNavbarUsername{
-    text-align: center;
-    
-    width: 60%;
-    margin: 40px 18%;
-    margin-bottom: 0;
-    color: rgb(14, 40, 83) ;
-    font-size: 1.5em;
-    font-weight: bolder;
-
-  }
   .sideNavbar .searchBar{
-      margin: 1em 0;
-      
+      margin: 4em 0;
   }
   .sideNavbar .searchBar p{
     text-align: center;
     padding: 10px;
     width: 50%;
-    margin: 10px 20%;
+    margin: 30px 20%;
     background-color: orangered;
     color: white;
     font-size: 1.5em;
@@ -218,11 +190,11 @@ body {
   .sideNavbar-btn {
     display: block;
     color: black;
-    height: 30px;
-    padding: 14px 15px;
+    height: 60px;
+    padding: 16px 30px;
     text-decoration: none;
-    font-size: 1.5em;
-    font-weight: 500;
+    font-size: 2em;
+    font-weight: bolder;
     cursor: pointer;
   }
    
@@ -248,13 +220,12 @@ body {
       width: 100%;
       max-width: 90%;
       position: relative;
-      height: 40px;
+      height: 50px;
       cursor: pointer;
       background-color:  rgb(14, 40, 83);
       color: white;
       margin: 0 4vw;
-      font-size: 1em;
-      font-weight: bold;
+      font-size: 1.5em;
       /* border: none; */
     }
     .openBtn:hover {
@@ -265,13 +236,12 @@ body {
       width: 100%;
       max-width: 90%;
       position: relative;
-      height: 40px;
+      height: 50px;
       cursor: pointer;
       background-color:  rgb(14, 40, 83);
       color: white;
       margin: 0 4vw;
-      font-size: 1em;
-      font-weight: bold;
+      font-size: 1.5em;
     }
     .closeBtn:hover {
       background-color:orangered;
@@ -288,7 +258,7 @@ body {
     }
 
     .sideNavbar-btn {
-        height: 30px;
+        height: 40px;
     }
     /* .sideNavbar a {float: left;} */
     #mainContent {
@@ -303,8 +273,8 @@ body {
   .topNavbar {
     background-color:  rgb(14, 40, 83);
     overflow: hidden;
-    margin-left: 250px;
-    /* margin-right:10px; */
+    margin-left: 310px;
+    margin-right:10px;
   }
   .topNavbar a {
     float: left;
@@ -315,10 +285,8 @@ body {
     box-sizing: border-box;
     padding: 1% 3%;
     text-decoration: none;
-    font-size: 1.5em;
-    height: 50px;
-    font-weight: bolder;
-    
+    font-size: 2em;
+    height: 75px;
   }
   .topNavbar a:hover {
     background-color:orangered;
@@ -329,7 +297,7 @@ body {
     box-sizing: border-box;
     background-color: white;
     float: left;
-    height: 50px;
+    height: 74px;
   }
   .activeTopbarBtn {
     background-color: orangered;
@@ -358,8 +326,8 @@ body {
     margin: 10px;
     margin-left: 0;
     text-align: center;
-    font-size: 2em;
-    letter-spacing: 4vh;
+    font-size: xx-large;
+    letter-spacing: 7vh;
 
   }
   /* ------------- */
@@ -398,16 +366,10 @@ body {
   .profileUserInfo button{
     float: right;
     color: white;
-    font-size: large;
+    font-size: 1em;
     background-color: rgb(63, 81, 110);
     text-decoration: none;
     border: none;
-    margin-right: 40px;
-    margin-top: 15px;
-  }
-  .item1 .profileUsername{
-    font-size: 1.5em;
-    border-bottom: solid orangered 3px;
   }
 
 
@@ -415,7 +377,9 @@ body {
   /* VIDEOS */
   /* -------- */
   .videoSectionTitle{
-    font-size: 1.5em;
+    font-size: 2em;
     padding: 10px;
+
+
   }
 

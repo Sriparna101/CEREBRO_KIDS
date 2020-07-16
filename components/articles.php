@@ -13,10 +13,10 @@
 						</div>
 
 						<div class="articleslideshow">
-							<img class="mySlides" src="img_snowtops.jpg">
-							<img class="mySlides" src="img_lights.jpg">
-							<img class="mySlides" src="img_mountains.jpg">
-							<img class="mySlides" src="img_forest.jpg">
+							<img class="mySlides" src="./images/image2.png">
+							<img class="mySlides" src="./images/image3.png">
+							<img class="mySlides" src="./images/image4.png">
+							<img class="mySlides" src="./images/youtubeicon.webp">
 						</div>
 
 						<div class="articlearticles">

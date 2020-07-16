@@ -4,40 +4,30 @@
 $(document).ready(function () {
     $("#assign").click(function () {
         $(".sideNavbar-btn").removeClass('active');
-        $(".topNavbar-btn").removeClass("activeTopbarBtn");
-
         $(this).addClass('active');
         $('#mainContent').empty();
         $("#mainContent").load('components/assignments.php');
     });
     $("#profile").click(function () {
         $(".sideNavbar-btn").removeClass('active');
-        $(".topNavbar-btn").removeClass("activeTopbarBtn");
-
         $(this).addClass('active');
         $('#mainContent').empty();
         $("#mainContent").load('components/profilepage.php');
     });
     $("#ffk").click(function () {
         $(".sideNavbar-btn").removeClass('active');
-        $(".topNavbar-btn").removeClass("activeTopbarBtn");
-
         $(this).addClass('active');
         $('#mainContent').empty();
         $("#mainContent").load('components/financeforkids.php');
     });
     $("#backup").click(function () {
         $(".sideNavbar-btn").removeClass('active');
-        $(".topNavbar-btn").removeClass("activeTopbarBtn");
-
         $(this).addClass('active');
         $('#mainContent').empty();
         $("#mainContent").load('components/backupclasses.php');
     });
     $("#contact").click(function () {
         $(".sideNavbar-btn").removeClass('active');
-        $(".topNavbar-btn").removeClass("activeTopbarBtn");
-
         $(this).addClass('active');
         $('#mainContent').empty();
         $("#mainContent").load('components/contactus.php');
@@ -51,8 +41,6 @@ $(document).ready(function () {
 
     $("#topBtn-videos").click(function () {
         $(".topNavbar-btn").removeClass("activeTopbarBtn");
-        $(".sideNavbar-btn").removeClass('active');
-
         $(this).addClass("activeTopbarBtn");
         $('#mainContent').empty();
         $("#mainContent").load('components/backupclasses.php');
@@ -60,8 +48,6 @@ $(document).ready(function () {
     });
     $("#topBtn-worksheets").click(function () {
         $(".topNavbar-btn").removeClass("activeTopbarBtn");
-        $(".sideNavbar-btn").removeClass('active');
-
         $(this).addClass("activeTopbarBtn");
         $('#mainContent').empty();
         $("#mainContent").load('components/worksheets.php');
@@ -69,8 +55,6 @@ $(document).ready(function () {
     });
     $("#topBtn-articles").click(function () {
         $(".topNavbar-btn").removeClass("activeTopbarBtn");
-        $(".sideNavbar-btn").removeClass('active');
-
         $(this).addClass("activeTopbarBtn");
         $('#mainContent').empty();
         $("#mainContent").load('components/articles.php');
