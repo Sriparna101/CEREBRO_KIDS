@@ -28,15 +28,18 @@
   .assignCol h3{
     border-bottom: orangered 2px solid;
     padding-bottom: 10px;
-    text-align: center;
-    font-size: 1.5em;
+    /* text-align: center; */
+    font-size: 1.2em;
+    padding-left: 5%;
   }
   .assignCol ul{
       list-style: none;
+      padding-left: 1%;
   }
   .downloadButton{
     font-size: 2vw;
     color: white;
+    float: right;
   }
 
   @media screen and (max-width: 1100px) {
