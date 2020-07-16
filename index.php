@@ -39,7 +39,7 @@
     <button class="openBtn">OPEN MENU</button>
     <button class="closeBtn">CLOSE MENU</button>
     <div class="sideNavbar">
-        <!-- <div>User name</div> -->
+        <div class="sideNavbarUsername">User name</div>
         <div class="searchBar">
             <p>Advanced</p>
             <input type="text" placeholder="search concept">
@@ -74,21 +74,4 @@
 
 
 </body>
-<!-- <script>
-    const sidebar = document.querySelector('.sideNavbar');
-    const btns = document.querySelectorAll('.sideNavbar-btn');
-
-    sidebar.addEventListener('click', e => {
-
-        btns.forEach(btn => {
-
-            if (btn.getAttribute('id') === e.target.getAttribute('id'))
-                btn.classList.add('active');
-            else
-                btn.classList.remove('active');
-        });
-    });
-        //PAGE LOAD
-</script> -->
-
 </html>
