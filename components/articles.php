@@ -20,14 +20,14 @@
 						</div>
 
 						<div class="articlearticles">
-							<div class="articlecategory">Heading1</div>
-							<div class="articlecategory">Heading1</div>
-							<div class="articlecategory">Heading1</div>
-							<div class="articlecategory">Heading1</div>
+							<div class="articlecategory"><h3> Heading1</h3><div>ABC</div></div>
+							<div class="articlecategory"><h3>Heading2</h3><div>ABC</div></div>
+							<div class="articlecategory"><h3>Heading3</h3><div>ABC</div></div>
+							<div class="articlecategory"><h3>Heading4</h3><div>ABC</div></div>
 						</div>
 				    </div>
 				</div>
-			</div>
+			</div>               
 		</div>
 
 <script type="text/javascript">
