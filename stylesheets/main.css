@@ -9,7 +9,7 @@ body {
       background-color: rgb(14, 40, 83);
       margin-left: 250px;
       /* margin-right: 10px; */
-        height:800px;
+        height:750px;
     /* padding: 1px 16px; */
   }
 
@@ -304,6 +304,7 @@ body {
     background-color:  rgb(14, 40, 83);
     overflow: hidden;
     margin-left: 250px;
+    margin-top: 10px;
     /* margin-right:10px; */
   }
   .topNavbar a {

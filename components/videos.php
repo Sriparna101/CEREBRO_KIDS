@@ -1,11 +1,18 @@
 
 				<div id=" article" class="wrapper">
 					<div id="guts" class="contactus">
-									
+						<div class="articlebutttons">
+							<a href="#">Money</a>
+							<a href="#">Budgeting</a>
+							<a href="#">Saving</a>
+							<a href="#">Investment</a>
+							<a href="#">Taxes</a>
+							<a href="#">Banking</a>
+						</div>
 					
 		
 										<div>
-											<div  class="videoSectionTitle" style="color:white;">Module - 1</div>
+											<div  class="videoSectionTitle" style="color:white; margin-top: 25px;">Learn-with-Neo</div>
 										</div><br>
 										<div class="horizontal-scroll ml-1 mt-2">
 												<?php
@@ -34,7 +41,7 @@
 												?>
 										</div><br>
 										<div>
-											<div class="col videoSectionTitle" style="color:white;">Module - 2</div>
+											<div class="col videoSectionTitle" style="color:white;">Learn-with-Experts</div>
 										</div><br>
 										<div class="horizontal-scroll ml-1 mt-3">
 										<?php
@@ -62,7 +69,7 @@
 										?>
 										</div><br>
 										<div>
-											<div class="col videoSectionTitle" style="color:white;">Module - 3</div>
+											<div class="col videoSectionTitle" style="color:white;">Learn-it-Yourself</div>
 										</div><br>
 										<div class="horizontal-scroll ml-1 mt-3">
 										<?php

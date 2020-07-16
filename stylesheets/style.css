@@ -1,4 +1,6 @@
-
+button{
+  cursor: pointer;
+}
 /* FIRST SECTION */
 
 .firstview{
@@ -377,6 +379,10 @@ hr{
     margin: 2% 0;
     padding-left: 9%;
 
+}
+
+.profileUserInfo > button{
+  width: 240px;
 }
 
 .line{

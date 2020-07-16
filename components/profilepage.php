@@ -35,11 +35,11 @@
 					</div>
 					<div class="profileUserInfo">
 						<p>Contact Number : Contact Number</p>
-						<button>Change Password</button>
+						<button>Edit Profile</button>
 					</div>
 					<div class="profileUserInfo">
 						<p>Alternate Number : Alternate Number</p>
-						<button>Change Password</button>
+						<button>Logout</button>
 					</div>
 				</div>
 			</div>

@@ -46,7 +46,7 @@ $(document).ready(function () {
 
 // TOP NAV BAR ACTION
 $(document).ready(function () {
-    $("#mainContent").load('components/backupclasses.php');
+    $("#mainContent").load('components/videos.php');
     $("#topBtn-videos").addClass("activeTopbarBtn");
 
     $("#topBtn-videos").click(function () {
@@ -55,7 +55,7 @@ $(document).ready(function () {
 
         $(this).addClass("activeTopbarBtn");
         $('#mainContent').empty();
-        $("#mainContent").load('components/backupclasses.php');
+        $("#mainContent").load('components/videos.php');
 
     });
     $("#topBtn-worksheets").click(function () {
