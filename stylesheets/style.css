@@ -1,4 +1,279 @@
 
+/* FIRST SECTION */
+
+.firstview{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-rows: 1fr;
+  margin: 5%;
+  border: solid 1px;
+  padding: 0;
+}
+
+
+.leftup{
+    display: flex;
+  justify-content: center;
+}
+
+.leftup > img{
+  height: 470px;
+  width: 470px;
+  margin: 5%;
+ 
+}
+
+.righthalf{
+  display: block;
+  justify-content: center;
+  background-color: #303760; 
+  overflow: hidden;
+}
+
+.topcorner{
+  display: flex;
+  margin: 4px;
+  background: #303760;
+  float: right;
+}
+
+.topbutton{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.topbutton > input{
+    color: white;
+    border:none;
+     background-color: #303760;
+     cursor: pointer;
+}
+
+.logologin{
+  margin-left: 37%;
+  margin-top: 30%;
+}
+
+.leftbottom{
+  display: flex;
+  justify-content: center;
+}
+
+.leftimg{
+  height: 100px;
+  width: 110px;
+  margin: 5px;
+}
+
+.leftbutton{
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+
+.leftbutton > input{
+  color: blue;
+  border:none;
+  cursor: pointer;
+}
+
+
+.logreg{
+  margin-left: 24%;
+  
+  margin-top: 25%;
+  margin-bottom: 20%;
+}
+
+.logreg1{
+  color: white;
+  background-color: #E47209;
+  width: 150px;
+  height: 40px;
+  margin: 0;
+  margin-right: 10px;
+  font-size: 20px;
+  border:none;
+}
+
+.logreg2{
+  color: white;
+  background-color: #303760;
+  width: 150px;
+  height: 40px;
+  margin: 0;
+  margin-left: 3%;
+  font-size: 20px;
+  border-color: white;
+}
+
+.imagesection2login{
+  display: flex;
+  justify-content: center;
+}
+
+#section2{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#section3{
+  display: block;
+  margin: 8%;
+  padding: 5%;
+}
+
+.loginpageform > input{
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.loginpageform > button{
+  float: right;
+  color: white;
+  background-color: #E47209;
+  border-color: white;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
+
+#section3 > h1{
+  padding: 0;
+  margin: 0;
+}
+
+#section3 > p{
+  padding: 0;
+  margin: 0;
+}
+
+.loginfooter{
+  float: right;
+  margin-right: 8px;
+}
+
+.loginfootericon{
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* LOGIN CUSTOMER && EMPLOYEE */
+
+.loginouter{
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	font-size: 1.5rem;
+}
+
+.loginouter > fieldset{
+	border-color: #0F1A41;
+	width: 50%;
+	box-shadow: black;
+	border-width: 7px;
+	margin: 15%;	
+	padding: 0;
+	border-radius: 20px;
+	ox-shadow: b4px 4px 15px 15px #888888;
+}
+
+.loginbox{
+	margin: 10%;
+
+	justify-content: all;
+
+}
+
+
+.headinglogin{
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+	font-style: bold;
+	background-color: #0F1A41; 
+	margin: 0;
+	padding: 0;
+	color: #E47209;
+	height: 70px;
+	border-top-left-radius:  : 20px;
+	border-top-right-radius:  : 20px;
+}
+
+.loginform > button{
+
+	padding: 10px;
+	margin: 2%;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	border-color: #0F1A41;
+	background-color: #0F1A41;
+	font-color: green;
+	box-shadow: white;
+	color: #E47209;	
+}
+
+.loginform > input{
+	width: 100%;
+	font-size: 1.5rem;
+}
+
+/*REGISTER CUSTOMER && EMPLOYEE page*/
+
+.outer{
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	font-size: 1.5rem;
+}
+
+.inner{
+	margin: 4%;
+}
+
+
+.outer > fieldset{
+	border-color: #0F1A41;
+	width: 50%;
+	box-shadow: black;
+	border-width: 7px;
+	margin: 4%;	
+	padding: 0;
+	border-radius: 20px;
+	box-shadow: 4px 4px 15px 15px #888888;
+}
+
+.headingregister{
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+	font-style: bold;
+	background-color: #0F1A41; 
+	margin: 0;
+	padding: 0;
+	color: #E47209;
+	height: 70px;
+	border-top-left-radius:  : 20px;
+	border-top-right-radius:  : 20px;
+
+}
+
+.formregister > button{
+	padding: 10px;
+	margin: 2%;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	border-color: #0F1A41;
+	background-color: #0F1A41;
+	font-color: green;
+	box-shadow: white;
+	color: #E47209;
+}
 
 .border {
   display: inline-block;
