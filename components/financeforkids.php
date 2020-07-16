@@ -19,7 +19,7 @@
 											<div class="col cs4at"><a class="nav-link nlrat" href="article.php">ARTICLES</a></div>-->
 		
 										<div>
-											<div  style="color:white;">Binge Watch</div>
+											<div class="videoSectionTitle" style="color:white;">Binge Watch</div>
 										</div><br>
 										<div class="horizontal-scroll ml-1 mt-2">
 												<video width="320" height="240" controls>
@@ -49,7 +49,7 @@
 												</video>
 										</div><br>
 										<div>
-											<div class="col" style="color:white;">Stories</div>
+											<div class="col videoSectionTitle" style="color:white;">Stories</div>
 										</div><br>
 										<div class="horizontal-scroll ml-1 mt-3">
 												<video width="320" height="240" controls>
@@ -69,7 +69,7 @@
 												</video>
 										</div><br>
 										<div>
-											<div class="col" style="color:white;">Games</div>
+											<div class="col videoSectionTitle" style="color:white;">Games</div>
 										</div><br>
 										<div class="horizontal-scroll ml-1 mt-3">
 												<video width="320" height="240" controls>

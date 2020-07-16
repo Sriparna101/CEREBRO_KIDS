@@ -30,7 +30,7 @@
         TITAN
     </div>
     <div id="userInfo" class="headerSection3">
-            <span >Hello Abhinav Gupta</span>
+            <span >Hello Abhinav!</span>
             <img src="./icon.jpeg" alt="user">
     </div>
         

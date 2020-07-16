@@ -337,7 +337,7 @@ hr{
 .profileSection {
   /* background: #0F1A41; */
   float: left;
-  height: 33%;
+  height: 31%;
   display: block;
   width: 99%;
   color: white;
@@ -348,30 +348,33 @@ hr{
 
 .item{
 	display: flex;
-	justify-content: center; 
-	margin: 3%;
-	width: 100%;
-	vertical-align: middle;
-	padding: 0;
+    /* justify-content: center; */
+    margin: 2% 1%;
+    width: 98%;
+    vertical-align: middle;
+    padding: 0;
 }
 
 .item > img{
-	height: 140px;
-	width: 180px;
-	border: solid 1px;
-	margin-right: 50px; 
-	float: left;
-	margin-left: 10%;
+	height: 220px;
+    width: 280px;
+    border: solid 6px black;
+    /* margin-right: 50px; */
+    float: left;
+    /* margin-left: 10%;*/
+	
 
 }
 
 .item1{
-	display: flex;
-	justify-content: center; 
-	margin-top: 3%;
-	width: 100%;
-	float: right;
-	vertical-align: center;
+	/*display: flex; */
+    justify-content: center;
+    /* margin-top: 3%; */
+    width: 76%;
+    /* float: right; */
+    margin: 2% 0;
+    padding-left: 9%;
+
 }
 
 .line{
@@ -385,10 +388,10 @@ hr{
 
 .profileSection p{
 	display: block;
-	margin-bottom: 10px;
-	padding: 0 20px;
-	margin-left: 0;
-	font-weight: bold;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    margin-left: 0;
+    font-weight: bold;
 }
 
 #Progress_Status {
@@ -417,8 +420,8 @@ hr{
 
 .performances{
 	display: flex;
-	justify-content: center;
-	
+    justify-content: center;
+    margin: 6% 2%;
 }
 
 .performancesscore > p{
@@ -427,12 +430,13 @@ hr{
 }
 
 .certificatebutton {
-	margin: 76px 0;
+	margin: 5% 2%;
     background: green;
-    height: 30px;
-    width: 80px;
+    height: 57px;
+    width: 125px;
     color: white;
     transform: rotate(-90deg);
+    font-size: 1em;
 }
 
 /* contact us page	*/
@@ -554,62 +558,12 @@ section:after {
 
 
 /* Tabish BAckup classes */
-.fixed-navbar {
-	background-color:white;
-	z-index:1;
-	position:fixed;
-	right:0;
-	left:214px;
-	top:96px;
-	min-width:max-content;
-}
-
-.ni {
-	text-align:center;
-	width:355px;
-	font-size:20px;
-	font-weight:bold;
-}
-.nid {
-	text-align:center;
-	width:355px;
-	background-color:gray;
-	font-size:20px;
-	font-weight:bold;
-}
+ 
 .horizontal-scroll {
 	overflow-x: auto;
 	overflow-y: hidden;
 	white-space: nowrap;
 }
-
-.cf{
-	padding-top:96px; height:640px;
-}
-
-.jfls{
-	background-color:white; height:87%;
-	position: fixed;
-}
-
-.tab-row{
-	position:fixed;
-}
-.border {
-  display: inline-block;
-  width: 200px;
-  height: 40px;
-  text-align: center;
-  margin: 5px;
-}
-
-.border1	{
-	display: inline-block;
-  width: 120px;
-  height: 40px;
-  text-align: center;
-  margin: 1px;
-} 
 
 .dropdown-item { 
   width: max-content !important;
@@ -634,118 +588,10 @@ hr{
 	background-color:orange;
 }
 
-.slide {
-	display: none
-}
-
-img {
-	vertical-align: middle;
-}
-
-.slideshow {
-	position: relative;
-  margin: auto;
-}
-
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.nlls {
-	color: black;	
-}
-
-.nlls:hover{
-	color: black;	
-}
-
-.nllsa {
-	background-color: gray;
-	color: white;	
-}
-
-.nllsa:hover{
-	color: white;	
-}
-
-.nlrat {
- color: white;
-}
-
-.nvr {
- color: white;
- background-color:orange;
-}
-
-.nvr:hover{
-	color:white;
-}
-
-.nlrat:hover{
-	color:white;
-}
-
-.jfvo{
-	height:120px;background-color:white;
-}
-.jfat {
- background-color:gray;color:white;
-}
-
-.cs4at{
-	column-width:350px;text-align:center;font-size:20px;background-color:orange;position: static;
-}
-
-.cs4gr{
-	column-width:350px;text-align:center;font-size:20px;background-color:gray;position: static;
-}
-.blank {
-	width:6px;background-color:white;
-}
-.csm10{
-	background-color:gray;
-}
-
 
 .adv {
 	border:none;border:0px;height:40px;width:130px;background-color:orange;color:white;
-}
+} 
 
  
 /* ARTICLE */ 

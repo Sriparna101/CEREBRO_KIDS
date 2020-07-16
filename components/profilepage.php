@@ -2,8 +2,7 @@
 <div id="guts" class="wrapper">
 	<section class="profileSection">
 		<div>
-			<?php
-									/*require 'connection.php';
+									<!-- require 'connection.php';
 									$query = SELECT * FROM `user` WHERE email= $_SESSION['email'];
 									$data = mysqli_query($conn, $query);
 									$result = mysqli_fetch_assoc($data);
@@ -19,19 +18,28 @@
 									echo $result['Contact'];
 									echo "Alternate Number";
 									echo $result['Alternate'];
-									echo "</div>";*/
+									echo "</div>"; -->
 
 
-								?>
+								
 
 			<div class='item'>
 
 				<img src="./icon.jpeg" alt="image">
 
 				<div class='item1'>
-					Email ID : Email <br>
-					Contact Number : Contact Number<br>
-					Alternate Number : Alternate Number<br>
+					<div class="profileUserInfo">
+						<p>Email ID : Email</p>
+						<button>Change Password</button>
+					</div>
+					<div class="profileUserInfo">
+						<p>Contact Number : Contact Number</p>
+						<button>Change Password</button>
+					</div>
+					<div class="profileUserInfo">
+						<p>Alternate Number : Alternate Number</p>
+						<button>Change Password</button>
+					</div>
 				</div>
 			</div>
 		</div>

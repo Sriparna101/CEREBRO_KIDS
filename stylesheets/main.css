@@ -13,15 +13,15 @@ body {
   }
 
 
-
-
   /* HEADER */
   .header{
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
-  margin: 10px;
+    overflow: hidden;
+    background-color: white;
+    padding: 5px 10px;
+    margin: 2px;
+    height: 90px;
   }
+  
   .headerSection1{
       box-sizing: border-box;
       width: 30%;
@@ -31,13 +31,13 @@ body {
   
 
   #ckLogo{
-    height: 7vh;
+    height: 6vh;
     vertical-align: middle;
     padding: 6px 12px;
   }
 
   .verticalBar{
-    height: 9vh;
+    height: 5vh;
     background-color: lightskyblue;
     /* float: left; */
     display: inline-block;
@@ -58,38 +58,49 @@ body {
     width: 45%;
     float: left;
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
     letter-spacing: 5vw;
+    font-weight: bolder;
+    height: inherit;
+    margin-top:  -5px;
   }
   .headerSection3{
     box-sizing: border-box;
-    width: 25%; 
+    width: 15%;
     float: right;
+    height: inherit;
+    
   }
+  
   .headerSection3 span{
-    width: 54%;
-    font-size: 2vw;
+    width: 50%;
+    font-size: 2em;
     box-sizing: border-box;
     float: left;
-    margin: 3% 5%;
-    height: 85px;
+    padding: 3% 1%;
+    margin: 0% 2%;
+    margin-left: 8%;
+    height: inherit;
     vertical-align: middle;
   }
   .headerSection3 img{
     height: auto;
-    width: 20%;
-    padding: 1% 8%;
+    width: 24%;
+    padding: 1% 6%;
     vertical-align: middle;
     float: right;
   }
   @media screen and (max-width: 1000px) {
+    .header{
+      height: 250px;
+    }
     .headerSection1{
       width: 100%;
-      height: 100px;
+      height: 90px;
     }
     .headerSection2{
       width: 100%;
-      height: 100px;
+      height: 80px;
       font-size: 6vh;
       letter-spacing: 11vw;
       
@@ -99,7 +110,7 @@ body {
     }
     .headerSection3{
       width: 100%;
-      height: 100px;
+      height: 80px;
       
     }
     .headerSection3 span{
@@ -141,7 +152,10 @@ body {
     margin: 0;
     padding: 0;
     width: 300px;
-    background-color: #f1f1f1;
+    background-color: transparent;
+    background-image: url(../sideNavbarBackground2.jpg);
+    background-repeat: no-repeat;
+    background-size: inherit;
     position: absolute;
     height: 99%;
     /* height: 1154px; */
@@ -149,21 +163,27 @@ body {
     
   }
   .sideNavbar .searchBar{
-      margin: 2em 4em;
+      margin: 4em 0;
   }
   .sideNavbar .searchBar p{
-      text-align: center;
-      padding: 10px;
-      background-color: orangered;
-      color: white;
-      font-size: larger;
-      font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    margin: 30px 20%;
+    background-color: orangered;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
   }
   .sideNavbar .searchBar input{
-      height: 30px;
-      width: 100%;
-      
-      border: 2px rgb(14, 40, 83) solid ;
+    height: 50px;
+    width: 90%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 2px rgb(14, 40, 83) solid;
+    font-size: 1.5em;
+    padding-left: 10%;
+    margin-left: 3%;
   }
 
 
@@ -173,7 +193,7 @@ body {
     height: 60px;
     padding: 16px 30px;
     text-decoration: none;
-    font-size: 2vh;
+    font-size: 2em;
     font-weight: bolder;
     cursor: pointer;
   }
@@ -205,6 +225,7 @@ body {
       background-color:  rgb(14, 40, 83);
       color: white;
       margin: 0 4vw;
+      font-size: 1.5em;
       /* border: none; */
     }
     .openBtn:hover {
@@ -220,6 +241,7 @@ body {
       background-color:  rgb(14, 40, 83);
       color: white;
       margin: 0 4vw;
+      font-size: 1.5em;
     }
     .closeBtn:hover {
       background-color:orangered;
@@ -258,12 +280,13 @@ body {
     float: left;
     display: block;
     width: 32%;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     box-sizing: border-box;
     padding: 1% 3%;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 2em;
+    height: 75px;
   }
   .topNavbar a:hover {
     background-color:orangered;
@@ -271,10 +294,10 @@ body {
   }
   .whiteBar{
     width: 1%;
-    height: 4vw;
     box-sizing: border-box;
     background-color: white;
     float: left;
+    height: 74px;
   }
   .activeTopbarBtn {
     background-color: orangered;
@@ -307,10 +330,10 @@ body {
     letter-spacing: 7vh;
 
   }
-
-
-  /* profile page */
-  .progressTable{
+  /* ------------- */
+ /* PROFILE PAGE*/
+/* ---------- */
+ .progressTable{
     height: 50%;
     width: 100%;
     margin: 4% auto;
@@ -335,8 +358,28 @@ body {
     z-index: 10;
     position: absolute;
     border-bottom: 2vh solid orangered;
+  }
+  .profileUserInfo p{
+      display: inline-block;
+
+  }
+  .profileUserInfo button{
+    float: right;
+    color: white;
+    font-size: 1em;
+    background-color: rgb(63, 81, 110);
+    text-decoration: none;
+    border: none;
+  }
 
 
-}
-  
+  /*-----------  */
+  /* VIDEOS */
+  /* -------- */
+  .videoSectionTitle{
+    font-size: 2em;
+    padding: 10px;
+
+
+  }
 
