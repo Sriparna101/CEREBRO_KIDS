@@ -96,11 +96,12 @@
 				Test 1:<br>
 				<p>7/10</p>
 			</div>
-
+			<div class="performancesscore">
 				<button class="certificatebutton">Certificate</button>
-			
+			</div>
 		</div>
-
+		
+		
 	</section>
 
 </div>

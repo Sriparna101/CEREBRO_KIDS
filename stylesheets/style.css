@@ -383,9 +383,6 @@ hr{
 
 }
 
-.profileUserInfo > button{
-  width: 240px;
-}
 
 .line{
     width: 100%;
@@ -422,31 +419,42 @@ hr{
 }
 
 .performancesscore{
-	
-	width: 20%;
+	/* display: inline-block; */
+	width: 22%;
 	box-sizing: border-box;
-    margin: 1% 2%;
+  float: left;
+  margin-left: 15px;
+  margin-top: 50px;  
+  /* margin: 1% 2%; */
 }
 
 .performances{
-	display: flex;
-    justify-content: center;
-    margin: 2%;
+	
+    /* justify-content: center; */
+    margin: 2% 0;
+    display: inline-block;
+    /* width: 90%; */
+    box-sizing: border-box;
+    width: 100%;
+
 }
 
 .performancesscore > p{
 	color: white;
-  	font-size: 40px;
+  	font-size: 2em;
 }
 
 .certificatebutton {
-	margin: 5% 2%;
+    box-sizing: border-box;
+    /* margin: 5% 2%; */
     background: green;
-    height: 57px;
-    width: 125px;
+    /* height: 57px; */
+    /* width: 10%; */
     color: white;
     transform: rotate(-90deg);
     font-size: 1em;
+    /* float: right; */
+    margin-top: 50px;
 }
 
 /* contact us page	*/

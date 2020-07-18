@@ -288,12 +288,24 @@ body {
     }
 
     .sideNavbar-btn {
-        height: 30px;
+        height: 20px;
     }
     /* .sideNavbar a {float: left;} */
     #mainContent {
       margin-left: 0;
       margin-top: 10px;
+    }
+    .sideNavbar .searchBar input{
+      height: 40px;
+    }
+    .sideNavbar .searchBar p{
+      height: 25px;
+      font-size: larger;
+      width: 40%;
+      margin: 10px 25%;
+    }
+    .sideNavbarUsername{
+      margin-top: 30px;
     }
   
   }
@@ -405,16 +417,43 @@ body {
     border: none;
     margin-right: 40px;
     margin-top: 15px;
+    width: 240px;
   }
   .item1 .profileUsername{
     font-size: 1.5em;
     border-bottom: solid orangered 3px;
   }
+  
+  @media screen and (max-width: 1000px) {
+    .profileSection{
+      
+      /* width: max-content; */
+      width: 560px;
+    }      
+     .profileUserInfo button{
+        width: 160px;
+        margin-right: 20px;
+      }
+    
 
+       /* .item  > img{
+        height: 115px;
+        width: 110px;
+        margin-top: 25px;
+
+      }
+      .profileSection p {
+        font-size: initial;
+      } */
+    
+     
+     
+    }
 
   /*-----------  */
   /* VIDEOS */
   /* -------- */
+
   .videoSectionTitle{
     font-size: 1.5em;
     padding: 10px;
