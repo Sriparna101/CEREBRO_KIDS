@@ -13,9 +13,25 @@
         <div class="money assignCol">
             <h3>Money</h3>
             <ul>
-                <li>Fun Currency    <i class="fa fa-download downloadButton"></i>​​</li>
-                <li>Let’s Barter​    <i class="fa fa-download downloadButton"></i></li>
-                <li>Joy of Giving    <i class="fa fa-download downloadButton"></i></li>
+                <?php
+                    require 'connection.php';
+                    $list = "";
+                    $i="";
+                    $query = "SELECT * FROM `pdf`";
+                    $data = mysqli_query($conn, $query);
+                    $row= mysqli_num_rows($data);
+
+                    for($i=1 ; $i <= $row ; $i++){
+                        $query = "SELECT * FROM `pdf` WHERE id=$i"; 
+                        $data = mysqli_query($conn, $query);
+                        $result = mysqli_fetch_assoc($data);                                                           
+                            echo "<li><a style='text-decoration: none; color: white;' download href=";
+                            echo $result['location'];
+                            echo ">";
+                            echo $result['name'];
+                            echo "<i class='fa fa-download downloadButton'></i>​​</a></li>";                                       
+                    }
+                ?>
             </ul>
         </div>
 
