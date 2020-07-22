@@ -4,12 +4,13 @@ html{
 body {
     min-height: 100%;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 0;
   }
   #mainContent{
       background-color: rgb(14, 40, 83);
       margin-left: 250px;
       /* margin-right: 10px; */
-        height:700px;
+        height:600px;
     /* padding: 1px 16px; */
   }
 
@@ -168,7 +169,7 @@ body {
   .sideNavbar{
     margin: 0;
     padding: 0;
-    width: 240px;
+    width: 250px;
     background-color: transparent;
     background-image: url(../sideNavbarBackground2.jpg);
     background-repeat: no-repeat;
