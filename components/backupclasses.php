@@ -22,7 +22,7 @@
 															$result = mysqli_fetch_assoc($data);
 
 															
-																echo "<video width='320' height='240' controls controlslist='nodownload'>";
+																echo "<video width='320' height='240' controls style='margin:5px;' controlslist='nodownload'>";
 																echo "<source src=";
 																echo $result['location'];
 																echo " type='video/mp4'>";
@@ -51,7 +51,7 @@
 													$result = mysqli_fetch_assoc($data);
 
 													
-														echo "<video width='320' height='240' controls controlslist='nodownload'>";
+														echo "<video width='320' height='240' controls style='margin:5px;' controlslist='nodownload'>";
 														echo "<source src=";
 														echo $result['location'];
 														echo " type='video/mp4'>";
@@ -79,7 +79,7 @@
 													$result = mysqli_fetch_assoc($data);
 
 													
-														echo "<video width='320' height='240' controls controlslist='nodownload'>";
+														echo "<video width='320' height='240' controls style='margin:5px;' controlslist='nodownload'>";
 														echo "<source src=";
 														echo $result['location'];
 														echo " type='video/mp4'>";

@@ -172,7 +172,7 @@ button{
 .loginouter{
 	display: flex;
 	justify-content: center;
-	font-family: sans-serif;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-size: 1.5rem;
 }
 
@@ -200,6 +200,7 @@ button{
 	justify-content: center;
 	font-size: 3rem;
 	font-style: bold;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 	background-color: #0F1A41; 
 	margin: 0;
 	padding: 0;
@@ -225,6 +226,7 @@ button{
 .loginform > input{
 	width: 100%;
 	font-size: 1.5rem;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 /*REGISTER CUSTOMER && EMPLOYEE page*/
@@ -232,7 +234,7 @@ button{
 .outer{
 	display: flex;
 	justify-content: center;
-	font-family: sans-serif;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-size: 1.5rem;
 }
 
@@ -255,6 +257,7 @@ button{
 .headingregister{
 	display: flex;
 	justify-content: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-size: 3rem;
 	font-style: bold;
 	background-color: #0F1A41; 
@@ -346,7 +349,7 @@ hr{
   width: 99%;
   color: white;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   padding: 0;
 }
 
@@ -383,6 +386,9 @@ hr{
 
 }
 
+.profileUserInfo > button{
+  width: 240px;
+}
 
 .line{
     width: 100%;
@@ -399,6 +405,7 @@ hr{
   padding: 0px 5px;
   margin-left: 0;
   font-size: large;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 #Progress_Status {
@@ -419,42 +426,33 @@ hr{
 }
 
 .performancesscore{
-	/* display: inline-block; */
-	width: 22%;
+	
+	width: 20%;
 	box-sizing: border-box;
-  float: left;
-  margin-left: 15px;
-  margin-top: 50px;  
-  /* margin: 1% 2%; */
+    margin: 1% 2%;
 }
 
 .performances{
-	
-    /* justify-content: center; */
-    margin: 2% 0;
-    display: inline-block;
-    /* width: 90%; */
-    box-sizing: border-box;
-    width: 100%;
-
+	display: flex;
+    justify-content: center;
+    margin: 2%;
 }
 
 .performancesscore > p{
 	color: white;
-  	font-size: 2em;
+  	font-size: 40px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .certificatebutton {
-    box-sizing: border-box;
-    /* margin: 5% 2%; */
+	margin: 5% 2%;
     background: green;
-    /* height: 57px; */
-    /* width: 10%; */
+    height: 57px;
+    width: 125px;
     color: white;
     transform: rotate(-90deg);
     font-size: 1em;
-    /* float: right; */
-    margin-top: 50px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 /* contact us page	*/
@@ -616,28 +614,37 @@ hr{
 
 
 .articlebutttons{
-  display: flex;
-  justify-content: center;
-  margin-top: 4%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 3%;
+  /*justify-content: center;*/
+  margin-top: 3%;
+  
 }
 
 .articlebutttons > a{
-  margin-left: 3%;
-  margin-right: 3%;
+    
+  /*margin-left: 3%;
+  margin-right: 3%;*/
+  margin-top: 3%;
+  margin-bottom: 3%;
     /*background-color: #0F1A41;*/
-    width: 150px;
-    height: 20px;
-    font-size: 20px;
+    width: 180px;
+    height: 25px;
+    color: white;
     border: 2px solid; 
     border-color:  white;
     text-decoration: none;
-    color: white;
     text-align: center;
     padding: 1%;
+    font-size: 20px;
     font-weight: bold;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-.articlebutttons > a:focus{
+.articlebutttons > a:hover{
   background-color: white;
   color: #0F1A41;
 }
@@ -672,8 +679,125 @@ hr{
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-color: #E47209;*/
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 25px;
   border-bottom: orangered 2px solid;
   padding-bottom: 10px;
   color: white;
 }
+
+
+/* videos scroll */
+
+#right-button, #left-button {
+  cursor: pointer;
+  height: 150px; 
+  width: auto;
+  margin-top: 50px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+#right-button {
+  
+  float: right;
+  border-radius: 3px 0 0 3px;
+}
+
+#left-button {
+  
+  
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#left-button:hover, #right-button:hover {
+  background-color: orangered;
+  color: rgb(14, 40, 83);
+}
+
+
+#right-button1, #left-button1 {
+  cursor: pointer;
+  height: 150px; 
+  width: auto;
+  margin-top: 50px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+#right-button1 {
+  
+  float: right;
+  border-radius: 3px 0 0 3px;
+}
+
+#left-button1 {
+  
+  
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#left-button1:hover, #right-button1:hover {
+  background-color: orangered;
+  color: rgb(14, 40, 83);
+}
+
+
+#right-button2, #left-button2 {
+  cursor: pointer;
+  height: 150px; 
+  width: auto;
+  margin-top: 50px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+#right-button2 {
+  
+  float: right;
+  border-radius: 3px 0 0 3px;
+}
+
+#left-button2 {
+  
+  
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#left-button2:hover, #right-button2:hover {
+  background-color: orangered;
+  color: rgb(14, 40, 83);
+}
+
+
+.center{
+ float: left; 
+ width: 100%;
+ height: 270px;
+display: flex;
+ margin: 1px;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden;
+ /*will change this to hidden later to deny scolling to user*/
+ white-space: nowrap;
+}
+
+

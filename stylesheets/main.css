@@ -3,13 +3,13 @@ html{
 }
 body {
     min-height: 100%;
-    font-family: sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
   }
   #mainContent{
       background-color: rgb(14, 40, 83);
       margin-left: 250px;
       /* margin-right: 10px; */
-        height:750px;
+        height:700px;
     /* padding: 1px 16px; */
   }
 
@@ -57,11 +57,11 @@ body {
 
   .headerSection2{
     box-sizing: border-box;
-    width: 45%;
+    width: 40%;
     float: left;
     text-align: center;
-    font-size: 4em;
-    letter-spacing: 5vw;
+    font-size: 2em;
+    letter-spacing: 3vw;
     font-weight: bolder;
     height: inherit;
     color: dimgray;
@@ -193,16 +193,23 @@ body {
       margin: 1em 0;
       
   }
-  .sideNavbar .searchBar p{
+  .sideNavbar .searchBar button{
     text-align: center;
     padding: 10px;
     width: 50%;
     margin: 10px 20%;
     background-color: orangered;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bolder;
+    border: none;
+    border-radius: 5px;
   }
+
+  .sideNavbar .searchBar button:hover{
+      transform:scale(1.1,1.1);
+  }
+
   .sideNavbar .searchBar input{
     height: 50px;
     width: 90%;
@@ -288,23 +295,11 @@ body {
     }
 
     .sideNavbar-btn {
-        height: 20px;
+        height: 30px;
     }
     /* .sideNavbar a {float: left;} */
     #mainContent {
       margin-left: 0;
-      margin-top: 10px;
-    }
-    .sideNavbar .searchBar input{
-      height: 40px;
-    }
-    .sideNavbar .searchBar p{
-      height: 25px;
-      font-size: larger;
-      width: 40%;
-      margin: 10px 25%;
-    }
-    .sideNavbarUsername{
       margin-top: 30px;
     }
   
@@ -316,27 +311,35 @@ body {
     background-color:  rgb(14, 40, 83);
     overflow: hidden;
     margin-left: 250px;
-    margin-top: 10px;
+    margin-top: 30px;
     /* margin-right:10px; */
   }
   .topNavbar a {
     float: left;
     display: block;
     width: 32%;
+    
     color: white;
     text-align: center;
     box-sizing: border-box;
     padding: 1% 3%;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.4em;
     height: 50px;
     font-weight: bolder;
+    /*border-top-right-radius: 10px;
+    border-top-left-radius: 10px;*/
     
   }
   .topNavbar a:hover {
     background-color:orangered;
     color: blacks;
   }
+
+.topNavbar > a:active{
+  background-color: orangered;
+}
+
   .whiteBar{
     width: 1%;
     box-sizing: border-box;
@@ -344,10 +347,12 @@ body {
     float: left;
     height: 50px;
   }
-  .activeTopbarBtn {
+
+   .activeTopbarBtn {
     background-color: orangered;
     color: white;
   }
+ 
   @media screen and (max-width: 700px) {
     .topNavbar{margin:10px;}
     .whiteBar{
@@ -417,45 +422,8 @@ body {
     border: none;
     margin-right: 40px;
     margin-top: 15px;
-    width: 240px;
   }
   .item1 .profileUsername{
     font-size: 1.5em;
     border-bottom: solid orangered 3px;
   }
-  
-  @media screen and (max-width: 1000px) {
-    .profileSection{
-      
-      /* width: max-content; */
-      width: 560px;
-    }      
-     .profileUserInfo button{
-        width: 160px;
-        margin-right: 20px;
-      }
-    
-
-       /* .item  > img{
-        height: 115px;
-        width: 110px;
-        margin-top: 25px;
-
-      }
-      .profileSection p {
-        font-size: initial;
-      } */
-    
-     
-     
-    }
-
-  /*-----------  */
-  /* VIDEOS */
-  /* -------- */
-
-  .videoSectionTitle{
-    font-size: 1.5em;
-    padding: 10px;
-  }
-
